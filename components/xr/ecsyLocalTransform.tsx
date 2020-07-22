@@ -37,7 +37,7 @@ async function init (): Promise<any> {
   let lastTime = 0
   let world = new ECSYThreeWorld()
   world.registerComponent(Position)
-    // .registerComponent(Transform)
+    .registerComponent(Transform)
     .registerComponent(SkyBox)
     .registerComponent(Parent)
     .registerComponent(GLTFLoader)
@@ -45,7 +45,7 @@ async function init (): Promise<any> {
     .registerComponent(Scale)
     .registerComponent(Visible)
   world.registerSystem(GLTFLoaderSystem)
-  world = Armada.initializeInputSystems(world, { debug: false, withTransform: true })
+  world = Armada.initializeInputSystems(world)
 
   const data = initialize(world)
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -62,11 +62,11 @@ box.position.z = -2
 
   const movingEntity = world
     .createEntity()
-    // .addComponent(Transform)
+    .addComponent(Transform)
     .addObject3DComponent(box, scene)
 
 
-  Armada.initializeActor(movingEntity, {}, true)
+  Armada.initializeActor(movingEntity, {})
 
   console.log('movingEntity', movingEntity)
   console.log('movingEntity._components', (movingEntity as any)._components)

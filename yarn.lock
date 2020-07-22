@@ -6010,9 +6010,9 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-"xr3ngine/armada@github:xr3ngine/armada#spoke":
+"xr3ngine/armada@github:xr3ngine/armada#systemIssue":
   version "0.0.1"
-  resolved "https://codeload.github.com/xr3ngine/armada/tar.gz/f9b8deecd6072b76230c3e1b09573896e6d26547"
+  resolved "https://codeload.github.com/xr3ngine/armada/tar.gz/dcf1199e555bddb92d4006e1d5d1f8a259b09edc"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
