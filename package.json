@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "dat.gui": "^0.7.7",
     "ecsy": "^0.3.2",
     "ecsy-three": "^0.0.6",
     "next": "^9.4.4",
