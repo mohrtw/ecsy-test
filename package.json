@@ -22,6 +22,6 @@
     "redux": "^4.0.5",
     "three": "^0.118.3",
     "troika-3d-text": "^0.17.0",
-    "xr3ngine/armada": "github:xr3ngine/armada#systemIssue"
+    "xr3ngine/armada": "github:xr3ngine/armada#spoke"
   }
 }
